@@ -17,7 +17,7 @@ class TestProxy
 		self::$instance = $instance;
 	}
 
-	public static function getInstanceIdentifier()
+	public static function getInstanceIdentifier(): string
 	{
 		return ProxyClass::class;
 	}
